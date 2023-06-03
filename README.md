@@ -1,7 +1,7 @@
 # STM32F429 MBES EDU PROJ
 
  - This project provide a functional cmake/ninja project for
- - stm32f429 MCU using arm-none-eabi gcc toolchain and openOCD 
+   stm32f429 MCU using arm-none-eabi gcc toolchain and openOCD 
 
 ## Requeriments
 
