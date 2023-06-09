@@ -33,6 +33,7 @@ private:
     static bool sendOpecode(Opecode opc) { return i2c::Write(BH1750_ADDR, opc); }
 public:
     static constexpr uint8_t BH1750_MEASURE_TIME_MS = 240;
+    static constexpr uint32_t BH1750_INIT_TIMOUT_MS = 5000;
     
     static bool Init() noexcept
     {
@@ -57,5 +58,3 @@ public:
     }
 };
 
-using I2C = STM32::I2C::SimpleI2c<STM32::I2C::I2C_1>;
-using GY30 = GY30_Driver<I2C>;

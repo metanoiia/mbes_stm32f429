@@ -35,7 +35,8 @@
         "cstdlib": "cpp",
         "exception": "cpp",
         "new": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "iterator": "cpp"
     },
     
 }
