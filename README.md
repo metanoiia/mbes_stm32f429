@@ -7,7 +7,7 @@
 
  - CMake 3.16 or great
  - ninja build tool 1.10.0 or great
- - riscv none embed 8.2.0 or great (from WCH or xpack provider)
+ - arm none embed 8.2.0 or great 
 
 ## Build steps
 
