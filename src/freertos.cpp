@@ -3,7 +3,6 @@
 SemaphoreHandle_t flashSemaphore;
 SemaphoreHandle_t initSemaphore;
 
-int a = 0;
 void StartNoiseSensorTask(void*)
 { 
   NoiseSensor::Init();
@@ -14,10 +13,11 @@ void StartNoiseSensorTask(void*)
     if(has_noise)
     {
       ControlUnit::SetNoise(has_noise);
-      a++;
       while(NoiseSensor::HasNoise()){ vTaskDelay(10); };
     }
+    vTaskDelay(5);
 	}
+
 }
 
 void StartLuxSensorTask(void*)

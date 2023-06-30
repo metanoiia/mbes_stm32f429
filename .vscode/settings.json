@@ -1,30 +1,11 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    // "cortex-debug.openocdPath.linux": "/opt/openocd-wch/bin/wch-openocd",
-    // "cortex-debug.gdbPath.linux": "/opt/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-gdb",
-    // "cortex-debug.objdumpPath.linux": "/opt/xpack-riscv-none-elf-gcc-12.2.0-1/bin/riscv-none-elf-objdump",
     "cortex-debug.openocdPath.linux": "",
     "cortex-debug.gdbPath.linux": "",
     "cortex-debug.objdumpPath.linux": "",
-    "cortex-debug.openocdPath.windows": "C:/devel/OpenOCD-20230202-0.12.0/bin/openocd.exe", 
-    "cortex-debug.gdbPath.windows": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gdb.exe",
-    "cortex-debug.objdumpPath.windows": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-objdump.exe",
-    // "files.associations": {
-    //     "ch32v30x_fsmc.h": "c",
-    //     "ch32v30x_conf.h": "c",
-    //     "ch32v30x_dac.h": "c",
-    //     "ch32v30x_it.h": "c",
-    //     "core_riscv.h": "c",
-    //     "ch32v30x.h": "c",
-    //     "newlib.h": "c",
-    //     "_newlib_version.h": "c",
-    //     "cstdlib": "cpp",
-    //     "usbd_gscan.h": "c",
-    //     "list": "c",
-    //     "usbd_core.h": "c",
-    //     "queue.h": "c",
-    //     "ch32v30x_can.h": "c"
-    // },
+    "cortex-debug.openocdPath.windows": "C:\\devtools\\openocdarm\\bin\\openocd.exe", 
+    "cortex-debug.gdbPath.windows": "C:\\devtools\\gccarm\\bin\\arm-none-eabi-gdb.exe",
+    "cortex-debug.objdumpPath.windows": "C:\\devtools\\gccarm\\bin\\arm-none-eabi-objdump.exe",
     "cortex-debug.registerUseNaturalFormat": false,
     "cortex-debug.variableUseNaturalFormat": true,
     "files.associations": {
@@ -36,7 +17,8 @@
         "exception": "cpp",
         "new": "cpp",
         "limits": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "stm32f4xx_hal_def.h": "c"
     },
     
 }

@@ -1,3 +1,4 @@
+#pragma once
 #include "stm32_i2c.hpp"
 
 template <class I2C_Master> 

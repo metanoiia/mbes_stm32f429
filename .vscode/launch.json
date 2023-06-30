@@ -13,18 +13,11 @@
             "runToEntryPoint": "main",
             "servertype": "openocd",
             "showDevDebugOutput": "raw",
-            //"liveWatch": { "enabled": true, "samplesPerSecond": 2 } ,
             "svdFile": "${workspaceFolder}/svd/stm32f429.svd",
             "configFiles": [
                 "interface/stlink-v2.cfg",
                 "target/stm32f4x.cfg"
             ],
-            // "postLaunchCommands": [
-            //     "b main",
-            //     "set mem inaccessible-by-default off",
-            //     "set architecture riscv:rv32",
-            //     "set remotetimeout unlimited"
-            // ],
             "preLaunchTask": "cmake build"
         }
     ]

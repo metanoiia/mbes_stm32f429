@@ -6,6 +6,7 @@
 #include "stm32f4xx_hal_rcc.h"
 #include "stm32f4xx_hal_flash.h"
 #include "stm32f4xx_hal_pwr.h"
+#include "timer4rtstates.hpp"
 
 void SystemClock_Config(void)
 {
